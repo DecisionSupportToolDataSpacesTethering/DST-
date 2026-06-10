@@ -135,7 +135,7 @@ with col_main:
             color: #1f4e5b;
             margin-bottom: 25px;
         ">
-            <strong>Welcome to the Decision Support Tool for Data Spaces Tethering! 🤖</strong><br><br>
+            <h1 style="font-size:22px; text-align:center;">Welcome to the Decision Support Tool for Data Spaces Tethering! 🤖</strong></b></h1><br><br>
             Select and weight your requirements to the most suitable data space for your organization.<br><br>
             <b>How it works:</b> <br>A score is calculated by matching your requirements with each data space of our database, weighted by your selected preferences.
                 You can also apply filters as hard constraints. A data space must fulfill them to be included.<br>
