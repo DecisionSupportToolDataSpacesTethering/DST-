@@ -131,10 +131,12 @@ with col_main:
             color: #1f4e5b;
             margin-bottom: 25px;
         ">
-            <strong>Welcome to the Decision Support Tool for Data Spaces Tethering! 🤖</strong><br><br>
-            Select and weight your requirements to the most suitable data space for your organization.<br>
-            <b>How it works:</b> The fitting score is calculated by matching your specific requirements with each data space of our database, multiplied by your chosen weighting factors.
+            <strong>Welcome to the Decision Support Tool for Data Spaces Tethering! 🤖</strong><br>
+            Select and weight your requirements to the most suitable data space for your organization.<br><br>
+            <b>How it works:</b> <br>A fitting score is calculated by matching your specific requirements with each data space of our database, multiplied by your chosen weighting factors.
                 You can also set filters that act as hard constraints. A data space must fulfill them to be included in the results.
+                Then a recommendation is provided, consisting of the three data spaces with the highest fitting score.
+                After all you can ask our gemini-2.5-flash based AI Assistant for further informations.
         </div>
     """, unsafe_allow_html=True)
 
