@@ -94,12 +94,16 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("DataSpace.csv", sep=";", encoding="utf-8")
+        base_dir = os.path.dirname(__file__)
+        file_path = os.path.join(base_dir, "DataSpace.csv")
+
+        df = pd.read_csv(file_path, sep=";", encoding="utf-8")
         df = df.fillna("")
         return df
+
     except FileNotFoundError:
         st.error("Die Datei 'DataSpace.csv' wurde nicht gefunden.")
-        return pd.DataFrame() 
+        return pd.DataFrame()
 
 df = load_data()
 
