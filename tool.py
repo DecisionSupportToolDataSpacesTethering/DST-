@@ -3,7 +3,7 @@ import streamlit as st
 import time 
 
 
-st.set_page_config(page_title="Data Space Decision Support Tool", layout="wide")
+st.set_page_config(page_title="Decision Support Tool for Data Spaces Tethering", layout="wide")
 
 #CSS für info i und multiselect
 st.markdown("""
@@ -120,7 +120,7 @@ def get_unique_options(column_name):
 empty_l, col_main, empty_r = st.columns([1, 8, 1])
 
 with col_main:
-    st.title("Data Space Decision Support Tool 🤖")
+    st.title("Decision Support Tool for Data Spaces Tethering 🤖")
     
     st.markdown("""
         <div style="
@@ -131,8 +131,8 @@ with col_main:
             color: #1f4e5b;
             margin-bottom: 25px;
         ">
-            <strong>Welcome to the Data Space Decision Support Tool! 🤖</strong><br><br>
-            Select and weight your requirements to the most suitable data space for your organization.<br><br>
+            <strong>Welcome to the Decision Support Tool for Data Spaces Tethering! 🤖</strong><br><br>
+            Select and weight your requirements to the most suitable data space for your organization.<br>
             <b>How it works:</b> The fitting score is calculated by matching your specific requirements with each data space of our database, multiplied by your chosen weighting factors.
                 You can also set filters that act as hard constraints. A data space must fulfill them to be included in the results.
         </div>
