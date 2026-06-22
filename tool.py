@@ -138,7 +138,7 @@ with col_main:
             <b>How it works:</b> <br>A score is calculated by matching your requirements with each data space of our database, weighted by your selected preferences.
                 You can also apply filters as hard constraints. A data space must fulfill them to be included.<br>
                 Then the tool recommends the top three matching data spaces based on the highest score.<br>
-                You can also ask our gemini-2.5-flash based AI Assistant for further insights and explanations. <br><br>
+                At the end, you can also ask our gemini-2.5-flash based AI Assistant for further insights and explanations.<br><br>
                 <b>Let’s find the right data space!</b>
         </div>
     """, unsafe_allow_html=True)
